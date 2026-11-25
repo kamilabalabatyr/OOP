@@ -1,0 +1,26 @@
+package practise1;
+
+import java.util.Scanner;
+
+public class task1 {
+	public static void main(String[] args){ 
+		Scanner sc = new Scanner(System.in);
+		String s = sc.nextLine();
+		int len = s.length();
+		System.out.print("+");
+		
+		for(int i=0;i<len;i++) {
+			System.out.print("-");
+		}
+		
+		System.out.println("+");
+		System.out.println("|" + s + "|");
+		System.out.print("+");
+		for(int i=0;i<len;i++) {
+			System.out.print("-");
+		}
+		System.out.println("+");
+		
+	}
+
+}

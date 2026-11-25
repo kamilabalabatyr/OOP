@@ -1,0 +1,13 @@
+package exceptions;
+
+public class NotResearcherException extends Exception {
+    private static final long serialVersionUID = 1L;
+
+	public NotResearcherException() {
+        super();
+    }
+
+    public NotResearcherException(String message) {
+        super(message);
+    }
+}

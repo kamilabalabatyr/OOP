@@ -1,0 +1,11 @@
+package pr3.delivery.model;
+
+public class Airplane extends Vehicle {
+	int smthing;
+	public Airplane() {
+		super(model, baseCost, engine);
+	}
+	@Override
+	
+
+}

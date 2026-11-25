@@ -1,0 +1,7 @@
+package pr3.delivery.model;
+
+public class Airplane extends Vehicle {
+	@Override
+	
+
+}

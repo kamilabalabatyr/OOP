@@ -1,0 +1,14 @@
+Expression: 4+2.3 - Error: Invalid format. Use: number operator number
+Expression: 3+6 - Error: Invalid format. Use number operator number
+Expression: 3.6+8.9 - Error: Invalid format. Use number operator number
+Expression: 5,7+8,0 - Error: Invalid format. Use number operator number
+Expression: g o - Error: Invalid format. Use number operator number
+Expression: 5 + g - Error: Invalid number format: For input string: "g"
+Expression:  List<Map.Entry<String, Integer>> sortedEntries = wordCounts.entrySet() - Error: Invalid format. Use number operator number
+Expression:             .stream() - Error: Invalid format. Use number operator number
+Expression:             .sorted((e1, e2) -> e2.getValue().compareTo(e1.getValue())) - Error: Invalid format. Use number operator number
+Expression: 5.3 / 0 - Error: Division by zero
+Expression:  - Error: Invalid format. Use number operator number
+Expression:  - Error: Invalid format. Use number operator number
+Expression: 5.3 R 3 - Error: Unsupported operator: R
+Expression: r + 3 - Error: Invalid number format: For input string: "r"
