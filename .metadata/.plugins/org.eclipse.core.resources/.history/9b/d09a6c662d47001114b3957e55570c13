@@ -1,8 +1,0 @@
-package enums;
-
-public enum GraduateType {
-    PENDING,
-    ACTIVE,
-    PASSED,
-    FAILED
-}
